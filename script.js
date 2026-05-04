@@ -63,7 +63,7 @@ function tampilSoal() {
 // TIMER
 function startTimer() {
   clearInterval(timer);
-  waktu = 60;
+  waktu = 120; // ⏱ 2 menit
   timerElem.innerText = waktu;
 
   timer = setInterval(() => {
