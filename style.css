@@ -1,0 +1,92 @@
+* { box-sizing: border-box; }* { box-sizing: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: #f4f6f8;
+  overscroll-behavior: none;
+}
+
+.container {
+  max-width: 480px;
+  margin: auto;
+  padding: 12px;
+}
+
+.card {
+  background: white;
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+header {
+  text-align: center;
+}
+
+.timer {
+  background: #ffeaa7;
+  padding: 6px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.soal {
+  font-size: 1rem;
+}
+
+.opsi label {
+  display: block;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.aksi {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 14px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.primary {
+  background: #0984e3;
+  color: white;
+}
+
+.secondary {
+  background: #b2bec3;
+}
+
+.penjelasan {
+  display: none;
+  background: #dfe6e9;
+}
+
+.cbt-status {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #d63031;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  font-size: 0.85rem;
+  z-index: 99;
+}
+
+body {

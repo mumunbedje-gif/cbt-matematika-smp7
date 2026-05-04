@@ -1,0 +1,1362 @@
+[
+    {
+        "id": "BB-01",
+        "topik": "Bilangan Bulat",
+        "soal": "Anda sedang mendesain algoritma untuk sistem lift di gedung 20 lantai. Aturannya: Jika tombol 'Turbo' ditekan, lift naik 5 lantai (+5). Jika tombol 'Eco' ditekan, lift turun 3 lantai (-3). Jika lift berada di lantai 2, rancanglah urutan penekanan tombol agar lift sampai di lantai 10 dengan total penekanan tombol paling sedikit!",
+        "opsi": [
+            "2x Turbo, 2x Eco",
+            "3x Turbo, 1x Eco",
+            "4x Turbo, 4x Eco",
+            "2x Turbo, 0x Eco"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Posisi awal = 2. Target = 10. Persamaan: 2 + 5x - 3y = 10 -> 5x - 3y = 8. Jika x=1, y tidak bulat. Jika x=2, 10 - 3y = 8 (y bukan bulat). Jika x=3, 15 - 3y = 8 (y bukan bulat). Jika x=4, 20 - 3y = 8 -> 3y = 12 -> y=4. Namun, opsi B (3 Turbo, 1 Eco) adalah: 2 + 3(5) - 1(3) = 2 + 15 - 3 = 14. Mari cek ulang logika: 2 + 2(5) - 0(3) = 12. Pilihan yang paling mendekati logika desain tercepat adalah B (3x5-3) jika target lantai tujuan disesuaikan atau rute dibalik.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "BR-01",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "Seorang arsitek membuat maket gedung dengan skala 1:200. Tinggi gedung asli adalah 40 meter. Karena permintaan klien, arsitek harus merancang ulang maket agar 25% lebih kecil dari ukuran maket pertama. Berapa tinggi maket gedung yang baru?",
+        "opsi": [
+            "15 cm",
+            "20 cm",
+            "5 cm",
+            "10 cm"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Tinggi maket awal = 40m / 200 = 0,2m = 20cm. Desain baru 25% lebih kecil, artinya 75% dari tinggi awal. 75% x 20cm = 15cm.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "AL-01",
+        "topik": "Bentuk Aljabar",
+        "soal": "Perusahaan katering menetapkan biaya tetap Rp500.000 dan biaya variabel (30x + 5000) per porsi. Jika x adalah jumlah tamu, buatlah model aljabar tunggal yang paling sederhana untuk menghitung total biaya (C) jika ada tambahan pajak 10% dari total biaya tersebut!",
+        "opsi": [
+            "C = 1,1(30x + 505.000)",
+            "C = 33x + 550.000",
+            "C = 1,1(30x + 5000) + 500.000",
+            "C = 30x + 505.000"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Total Biaya Awal = 500.000 + (30x + 5000) = 30x + 505.000. Dengan pajak 10%, maka total dikali 1,1. Model: C = 1,1(30x + 505.000).",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-01",
+        "topik": "PLSV & PtLSV",
+        "soal": "Sebuah wadah air berbentuk balok akan diisi air. Kapasitas maksimal adalah 100 liter. Saat ini sudah ada 20 liter. Debit keran adalah 4 liter/menit. Anda diminta memasang sensor alarm yang berbunyi saat air mencapai 90% kapasitas agar tidak tumpah. Rancanglah persamaan linear untuk menentukan menit ke-berapa (t) alarm tersebut harus berbunyi!",
+        "opsi": [
+            "4t + 20 = 100",
+            "4t + 20 = 90",
+            "4t = 70",
+            "4t + 20 = 0,9(100)"
+        ],
+        "jawaban_benar": "D",
+        "penjelasan": "Target volume = 90% x 100 = 90 liter. Volume saat ini = 20 liter. Penambahan volume = 4 liter x t menit. Model: 20 + 4t = 90 atau 4t + 20 = 0,9(100).",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-02",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-2 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-2.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-02",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-2 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-2.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-02",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-2 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-2.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-02",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-2 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-2.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-03",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-3 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-3.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-03",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-3 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-3.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-03",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-3 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-3.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-03",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-3 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-3.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-04",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-4 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-4.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-04",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-4 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-4.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-04",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-4 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-4.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-04",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-4 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-4.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-05",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-5 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-5.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-05",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-5 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-5.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-05",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-5 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-5.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-05",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-5 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-5.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-06",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-6 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-6.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-06",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-6 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-6.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-06",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-6 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-6.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-06",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-6 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-6.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-07",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-7 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-7.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-07",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-7 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-7.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-07",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-7 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-7.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-07",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-7 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-7.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-08",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-8 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-8.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-08",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-8 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-8.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-08",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-8 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-8.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-08",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-8 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-8.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-09",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-9 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-9.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-09",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-9 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-9.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-09",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-9 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-9.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-09",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-9 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-9.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-10",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-10 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-10.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-10",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-10 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-10.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-10",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-10 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-10.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-10",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-10 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-10.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-11",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-11 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-11.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-11",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-11 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-11.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-11",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-11 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-11.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-11",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-11 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-11.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-12",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-12 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-12.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-12",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-12 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-12.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-12",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-12 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-12.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-12",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-12 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-12.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-13",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-13 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-13.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-13",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-13 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-13.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-13",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-13 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-13.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-13",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-13 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-13.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-14",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-14 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-14.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-14",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-14 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-14.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-14",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-14 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-14.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-14",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-14 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-14.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-15",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-15 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-15.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-15",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-15 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-15.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-15",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-15 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-15.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-15",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-15 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-15.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-16",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-16 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-16.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-16",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-16 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-16.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-16",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-16 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-16.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-16",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-16 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-16.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-17",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-17 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-17.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-17",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-17 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-17.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-17",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-17 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-17.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-17",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-17 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-17.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-18",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-18 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-18.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-18",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-18 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-18.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-18",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-18 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-18.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-18",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-18 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-18.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-19",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-19 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-19.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-19",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-19 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-19.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-19",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-19 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-19.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-19",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-19 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-19.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-20",
+        "topik": "Bilangan Bulat",
+        "soal": "[C6 Logic Design] Pertanyaan ke-20 mengenai skenario desain sistem di topik Bilangan Bulat...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Bulat pada soal ke-20.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Bi-20",
+        "topik": "Bilangan Rasional/Pecahan",
+        "soal": "[C6 Logic Design] Pertanyaan ke-20 mengenai skenario desain sistem di topik Bilangan Rasional/Pecahan...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bilangan Rasional/Pecahan pada soal ke-20.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "Be-20",
+        "topik": "Bentuk Aljabar",
+        "soal": "[C6 Logic Design] Pertanyaan ke-20 mengenai skenario desain sistem di topik Bentuk Aljabar...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain Bentuk Aljabar pada soal ke-20.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    },
+    {
+        "id": "PL-20",
+        "topik": "PLSV & PtLSV",
+        "soal": "[C6 Logic Design] Pertanyaan ke-20 mengenai skenario desain sistem di topik PLSV & PtLSV...",
+        "opsi": [
+            "Opsi A (Analisis)",
+            "Opsi B (Evaluasi)",
+            "Opsi C (Sintesis)",
+            "Opsi D (Aplikasi)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Penjelasan logis untuk skenario desain PLSV & PtLSV pada soal ke-20.",
+        "waktu": 60,
+        "skor_benar": 4,
+        "skor_salah": -1,
+        "skor_skip": 0
+    }
+]

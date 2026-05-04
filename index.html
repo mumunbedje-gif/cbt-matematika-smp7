@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>CBT Matematika SMP Kelas 7</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- START SCREEN -->
+  <div id="startScreen" class="card">
+    <h2>CBT Matematika SMP Kelas 7</h2>
+    <input id="namaSiswa" placeholder="Nama Siswa" />
+    <input id="nisSiswa" placeholder="NIS" />
+    <button class="btn primary" onclick="mulaiUjian()">
+      Mulai Ujian
+    </button>
+  </div>
+
+  <!-- CBT STATUS -->
+  <div id="cbtStatus" class="cbt-status" style="display:none;">
+    MODE CBT AKTIF
+  </div>
+
+  <!-- EXAM SCREEN -->
+  <div id="examScreen" style="display:none;">
+
+    <header>
+      <h3 id="topik"></h3>
+      <div class="timer">
+        ⏱ <span id="timer">60</span> detik
+      </div>
+    </header>
+
+    <div class="card soal" id="soal"></div>
+    <div class="card opsi" id="opsi"></div>
+
+    <div class="aksi">
+      <button class="btn primary" onclick="submitJawaban()">Jawab</button>
+      <button class="btn secondary" onclick="skipSoal()">Lewati</button>
+    </div>
+
+    <div class="card penjelasan" id="penjelasan"></div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
