@@ -1,6 +1,6 @@
 let soal = [];
 let index = 0;
-let waktu = 60;
+let waktu = 120;
 let timer;
 
 // AMBIL SEMUA ELEMEN HTML (WAJIB)
