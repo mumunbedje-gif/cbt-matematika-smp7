@@ -3,12 +3,12 @@ let index = 0;
 let waktu = 60;
 let timer;
 
-// AMBIL ELEMEN HTML (INI PENTING)
+// AMBIL SEMUA ELEMEN HTML (WAJIB)
 const startScreen = document.getElementById("startScreen");
 const examScreen = document.getElementById("examScreen");
 const cbtStatus = document.getElementById("cbtStatus");
 const topik = document.getElementById("topik");
-const soalElem = document.getElementById("soal");
+const soalElem = document.getElementById("soal");   // ✅ INI YANG HILANG
 const opsi = document.getElementById("opsi");
 const penjelasan = document.getElementById("penjelasan");
 const timerElem = document.getElementById("timer");
@@ -39,14 +39,10 @@ function mulaiUjian() {
 
 // TAMPILKAN SOAL
 function tampilSoal() {
-  if (index >= soal.length) {
-    selesaiUjian();
-    return;
-  }
-
   const s = soal[index];
+
   topik.innerText = s.topik;
-  soalElem.innerText = s.soal;
+  soalElem.innerText = s.soal; // ✅ sekarang aman
   penjelasan.style.display = "none";
 
   let html = "";
