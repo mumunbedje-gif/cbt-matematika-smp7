@@ -1,66 +1,49 @@
 let soal = [];
 let index = 0;
-let skor = 0;
 let waktu = 60;
 let timer;
 
-// LOAD DATABASE
+// AMBIL ELEMEN HTML (INI PENTING)
+const startScreen = document.getElementById("startScreen");
+const examScreen = document.getElementById("examScreen");
+const cbtStatus = document.getElementById("cbtStatus");
+const topik = document.getElementById("topik");
+const soalElem = document.getElementById("soal");
+const opsi = document.getElementById("opsi");
+const penjelasan = document.getElementById("penjelasan");
+const timerElem = document.getElementById("timer");
+
+// LOAD SOAL
 fetch("Database_Soal_Matematika_SMP7_C6.json")
-  .then(r => r.json())
-  .then(data => soal = data);
+  .then(res => res.json())
+  .then(data => {
+    soal = data;
+    console.log("Soal berhasil dimuat:", soal.length);
+  })
+  .catch(err => {
+    alert("Gagal memuat soal. Periksa file JSON.");
+    console.error(err);
+  });
 
-// BLOK REFRESH & BACK
-window.onbeforeunload = () => "Ujian sedang berlangsung!";
-history.pushState(null, null, location.href);
-window.onpopstate = () =>
-  history.pushState(null, null, location.href);
-
-// SEED RANDOM
-function hashIdentitas(nama, nis) {
-  let s = nama + nis, h = 0;
-  for (let i = 0; i < s.length; i++) {
-    h = (h << 5) - h + s.charCodeAt(i);
-    h |= 0;
-  }
-  return Math.abs(h);
-}
-
-function seededRandom(seed) {
-  return Math.abs(Math.sin(seed) * 10000) % 1;
-}
-
-function shuffleDenganSeed(arr, seed) {
-  let a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    seed++;
-    const j = Math.floor(seededRandom(seed) * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-// START CBT
+// MULAI UJIAN
 function mulaiUjian() {
-  const nama = namaSiswa.value.trim();
-  const nis = nisSiswa.value.trim();
-  if (!nama || !nis) {
-    alert("Nama dan NIS wajib diisi");
-    return;
-  }
-
   document.documentElement.requestFullscreen();
 
   startScreen.style.display = "none";
   examScreen.style.display = "block";
   cbtStatus.style.display = "block";
 
-  const seed = hashIdentitas(nama, nis);
-  soal = shuffleDenganSeed(soal, seed);
-
+  index = 0;
   tampilSoal();
 }
 
+// TAMPILKAN SOAL
 function tampilSoal() {
+  if (index >= soal.length) {
+    selesaiUjian();
+    return;
+  }
+
   const s = soal[index];
   topik.innerText = s.topik;
   soalElem.innerText = s.soal;
@@ -68,53 +51,57 @@ function tampilSoal() {
 
   let html = "";
   s.opsi.forEach((o, i) => {
+    const huruf = String.fromCharCode(65 + i);
     html += `
       <label>
-        <input type="radio" name="jawaban" value="${String.fromCharCode(65+i)}">
+        <input type="radio" name="jawaban" value="${huruf}">
         ${o}
-      </label>`;
+      </label>
+    `;
   });
   opsi.innerHTML = html;
 
   startTimer();
 }
 
+// TIMER
 function startTimer() {
   clearInterval(timer);
   waktu = 60;
+  timerElem.innerText = waktu;
+
   timer = setInterval(() => {
-    timerElem.innerText = waktu--;
-    if (waktu < 0) nilaiSkip();
+    waktu--;
+    timerElem.innerText = waktu;
+    if (waktu <= 0) {
+      clearInterval(timer);
+      tampilPenjelasan();
+    }
   }, 1000);
 }
 
+// JAWAB
 function submitJawaban() {
   clearInterval(timer);
-  const pilih = document.querySelector("input[name=jawaban]:checked");
-  if (pilih) {
-    skor += (pilih.value === soal[index].jawaban_benar) ? 4 : -1;
-  }
   tampilPenjelasan();
 }
 
+// LEWATI
 function skipSoal() {
   clearInterval(timer);
   tampilPenjelasan();
 }
 
-function nilaiSkip() {
-  tampilPenjelasan();
-}
-
+// PENJELASAN
 function tampilPenjelasan() {
   penjelasan.style.display = "block";
   penjelasan.innerText = soal[index].penjelasan;
   index++;
-  setTimeout(() => {
-    if (index < soal.length) tampilSoal();
-    else {
-      document.exitFullscreen();
-      alert(`Ujian selesai.\nSkor akhir: ${skor}`);
-    }
-  }, 5000);
+
+  setTimeout(tampilSoal, 4000);
+}
+
+function selesaiUjian() {
+  document.exitFullscreen();
+  alert("Ujian selesai.");
 }
